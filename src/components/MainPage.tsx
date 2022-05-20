@@ -24,15 +24,13 @@ function MainPage() {
         <h1>골라라 신상을 한눈에</h1>
         <ul>
           {
-            items.map((item, i) => (
-              <>
-                <li key={item.id}>
-                  아이템{item.title}
-                </li>
+            items.map((item) => (
+              <li key={item.id}>
+                아이템{item.title}
                 <button type="button" onClick={() => handleClick(item.id)}>
                   button{item.id}
                 </button>
-              </>
+              </li>
             ))
           }
         </ul>

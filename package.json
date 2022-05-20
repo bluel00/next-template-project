@@ -7,10 +7,14 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "test": "jest --watch"
+    "test": "jest --watch",
+    "test:e2e": "codeceptjs run --steps"
   },
   "dependencies": {
+    "@codeceptjs/configure": "^0.8.0",
+    "codeceptjs": "^3.3.3",
     "next": "12.1.6",
+    "playwright": "^1.22.1",
     "react": "18.1.0",
     "react-dom": "18.1.0"
   },

@@ -12,6 +12,9 @@
 - Next.js
 - TypeScript
 - ESLint
+- Jest
+- CodeceptJs
+- Playwright
 
 ## Script
 

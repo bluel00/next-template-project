@@ -18,7 +18,7 @@ function MainPage() {
 
   return (
     <>
-      <div>header</div>
+      <header>header</header>
       <div>배너 영역 스와이프</div>
       <section>
         <h1>골라라 신상을 한눈에</h1>

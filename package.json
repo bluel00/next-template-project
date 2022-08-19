@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "test:unit": "jest",
+    "test:watch": "jest --watchAll",
     "coverage": "npm run test:unit -- --coverage",
     "test:e2e": "codeceptjs run --steps",
     "lint": "next lint"

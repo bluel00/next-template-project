@@ -3,8 +3,6 @@
 ## Contributor
 
 - Charlie
-- DJ
-- Mason
 
 ## Tech Requirement (Tech Stack)
 

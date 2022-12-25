@@ -20,10 +20,10 @@ describe('Home', () => {
     expect(container).toHaveTextContent('header');
   });
 
-  it('renders 골라라 신상을 한눈에', () => {
+  it('renders 타이틀', () => {
     const { container } = render(<MainPage />);
 
-    expect(container).toHaveTextContent('골라라 신상을 한눈에');
+    expect(container).toHaveTextContent('타이틀');
   });
 
   it('renders all items', () => {
